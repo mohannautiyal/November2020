@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="6107" started-at="2020-11-07T19:31:11 IST" finished-at="2020-11-07T19:31:17 IST">
+    <groups>
+    </groups>
+    <test name="Parallel Test Execution" duration-ms="6107" started-at="2020-11-07T19:31:11 IST" finished-at="2020-11-07T19:31:17 IST">
+      <class name="com.parallel.Tests.TestSuiteC">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestSuiteC@56235b8e]" name="Setup" is-config="true" duration-ms="18" started-at="2020-11-07T19:31:11 IST" finished-at="2020-11-07T19:31:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="divisionOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteC@56235b8e]" name="divisionOfNumbers_001" duration-ms="3022" started-at="2020-11-07T19:31:11 IST" finished-at="2020-11-07T19:31:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionOfNumbers_001 -->
+        <test-method status="PASS" signature="divisionOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteC@56235b8e]" name="divisionOfNumbers_002" duration-ms="3017" started-at="2020-11-07T19:31:14 IST" finished-at="2020-11-07T19:31:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- divisionOfNumbers_002 -->
+      </class> <!-- com.parallel.Tests.TestSuiteC -->
+      <class name="com.parallel.Tests.TestSuiteA">
+        <test-method status="PASS" signature="Setup(org.testng.ITestContext)[pri:0, instance:com.parallel.Tests.TestSuiteA@20398b7c]" name="Setup" is-config="true" duration-ms="18" started-at="2020-11-07T19:31:11 IST" finished-at="2020-11-07T19:31:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@23d2a7e8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="sumOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteA@20398b7c]" name="sumOfNumbers_001" duration-ms="1025" started-at="2020-11-07T19:31:11 IST" finished-at="2020-11-07T19:31:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfNumbers_001 -->
+        <test-method status="PASS" signature="sumOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteA@20398b7c]" name="sumOfNumbers_002" duration-ms="1011" started-at="2020-11-07T19:31:12 IST" finished-at="2020-11-07T19:31:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sumOfNumbers_002 -->
+      </class> <!-- com.parallel.Tests.TestSuiteA -->
+      <class name="com.parallel.Tests.TestSuiteB">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestSuiteB@6fc6f14e]" name="Setup" is-config="true" duration-ms="18" started-at="2020-11-07T19:31:11 IST" finished-at="2020-11-07T19:31:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="substractionOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteB@6fc6f14e]" name="substractionOfNumbers_001" duration-ms="1025" started-at="2020-11-07T19:31:11 IST" finished-at="2020-11-07T19:31:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractionOfNumbers_001 -->
+        <test-method status="PASS" signature="substractionOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteB@6fc6f14e]" name="substractionOfNumbers_002" duration-ms="1009" started-at="2020-11-07T19:31:12 IST" finished-at="2020-11-07T19:31:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractionOfNumbers_002 -->
+      </class> <!-- com.parallel.Tests.TestSuiteB -->
+    </test> <!-- Parallel Test Execution -->
+  </suite> <!-- Suite -->
+</testng-results>
