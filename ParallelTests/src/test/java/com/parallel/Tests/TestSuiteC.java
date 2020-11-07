@@ -19,8 +19,8 @@ public class TestSuiteC {
 
 	@Test
 	public void divisionOfNumbers_001() throws InterruptedException {
-		System.out.println("Executing Division Test 001");
-        Thread.sleep(1000);
+		System.out.println("Executing Division Test 001...");
+        Thread.sleep(3000);
 
  		assertTrue( calc.Divide(8,2)==4, "Division of numbers incorrect");
 		System.out.println("Division Test 001 Done");
@@ -30,8 +30,8 @@ public class TestSuiteC {
 	
 	@Test
 	public void divisionOfNumbers_002() throws InterruptedException {
-		System.out.println("Executing Division Test 002");
-        Thread.sleep(1000);
+		System.out.println("Executing Division Test 002..");
+        Thread.sleep(3000);
 
  		assertTrue( calc.Divide(9,3)==3, "Division of numbers incorrect");
 		System.out.println("Division Test 002 Done");

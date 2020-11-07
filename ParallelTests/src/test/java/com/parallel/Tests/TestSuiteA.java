@@ -20,7 +20,7 @@ public class TestSuiteA {
 	
 	@Test
 	public void sumOfNumbers_001() throws InterruptedException {
-		System.out.println("Executing Addition Test 001");
+		System.out.println("Executing Addition Test 001 ...");
          Thread.sleep(1000);
  		assertTrue( calc.Add(3, 4)==7, "Addition of numbers incorrect");
 		System.out.println("Addition Test 001 Done");
@@ -30,7 +30,7 @@ public class TestSuiteA {
 	
 	@Test
 	public void sumOfNumbers_002() throws InterruptedException {
-		System.out.println("Executing Addition Test 002");
+		System.out.println("Executing Addition Test 002...");
         Thread.sleep(1000);
 
  		assertTrue( calc.Add(4, 4)==8, "Addition of numbers incorrect");

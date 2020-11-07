@@ -2,75 +2,59 @@
 <testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="0" started-at="2020-11-05T23:10:30 IST" finished-at="2020-11-05T23:10:30 IST">
+  <suite name="Suite" duration-ms="6118" started-at="2020-11-07T19:31:44 IST" finished-at="2020-11-07T19:31:50 IST">
     <groups>
     </groups>
-  </suite> <!-- Suite -->
-  <suite name="Suite (1)" duration-ms="2013" started-at="2020-11-05T23:10:28 IST" finished-at="2020-11-05T23:10:30 IST">
-    <groups>
-    </groups>
-    <test name="TestC" duration-ms="2013" started-at="2020-11-05T23:10:28 IST" finished-at="2020-11-05T23:10:30 IST">
+    <test name="Parallel Test Execution" duration-ms="6118" started-at="2020-11-07T19:31:44 IST" finished-at="2020-11-07T19:31:50 IST">
       <class name="com.parallel.Tests.TestSuiteC">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestSuiteC@e45f292]" name="Setup" is-config="true" duration-ms="0" started-at="2020-11-05T23:10:28 IST" finished-at="2020-11-05T23:10:28 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestSuiteC@685cb137]" name="Setup" is-config="true" duration-ms="41" started-at="2020-11-07T19:31:44 IST" finished-at="2020-11-07T19:31:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="divisionOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteC@e45f292]" name="divisionOfNumbers_001" duration-ms="1002" started-at="2020-11-05T23:10:28 IST" finished-at="2020-11-05T23:10:29 IST">
+        <test-method status="PASS" signature="divisionOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteC@685cb137]" name="divisionOfNumbers_001" duration-ms="3014" started-at="2020-11-07T19:31:44 IST" finished-at="2020-11-07T19:31:47 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divisionOfNumbers_001 -->
-        <test-method status="PASS" signature="divisionOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteC@e45f292]" name="divisionOfNumbers_002" duration-ms="1003" started-at="2020-11-05T23:10:29 IST" finished-at="2020-11-05T23:10:30 IST">
+        <test-method status="PASS" signature="divisionOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteC@685cb137]" name="divisionOfNumbers_002" duration-ms="3008" started-at="2020-11-07T19:31:47 IST" finished-at="2020-11-07T19:31:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- divisionOfNumbers_002 -->
       </class> <!-- com.parallel.Tests.TestSuiteC -->
-    </test> <!-- TestC -->
-  </suite> <!-- Suite (1) -->
-  <suite name="Suite (0)" duration-ms="2009" started-at="2020-11-05T23:10:26 IST" finished-at="2020-11-05T23:10:28 IST">
-    <groups>
-    </groups>
-    <test name="TestB" duration-ms="2009" started-at="2020-11-05T23:10:26 IST" finished-at="2020-11-05T23:10:28 IST">
-      <class name="com.parallel.Tests.TestSuiteB">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestSuiteB@2f686d1f]" name="Setup" is-config="true" duration-ms="0" started-at="2020-11-05T23:10:26 IST" finished-at="2020-11-05T23:10:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="substractionOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteB@2f686d1f]" name="substractionOfNumbers_001" duration-ms="1001" started-at="2020-11-05T23:10:26 IST" finished-at="2020-11-05T23:10:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- substractionOfNumbers_001 -->
-        <test-method status="PASS" signature="substractionOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteB@2f686d1f]" name="substractionOfNumbers_002" duration-ms="1002" started-at="2020-11-05T23:10:27 IST" finished-at="2020-11-05T23:10:28 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- substractionOfNumbers_002 -->
-      </class> <!-- com.parallel.Tests.TestSuiteB -->
-    </test> <!-- TestB -->
-  </suite> <!-- Suite (0) -->
-  <suite name="SuiteA" duration-ms="2088" started-at="2020-11-05T23:10:24 IST" finished-at="2020-11-05T23:10:26 IST">
-    <groups>
-    </groups>
-    <test name="TestA" duration-ms="2088" started-at="2020-11-05T23:10:24 IST" finished-at="2020-11-05T23:10:26 IST">
       <class name="com.parallel.Tests.TestSuiteA">
-        <test-method status="PASS" signature="Setup(org.testng.ITestContext)[pri:0, instance:com.parallel.Tests.TestSuiteA@7d9d1a19]" name="Setup" is-config="true" duration-ms="23" started-at="2020-11-05T23:10:24 IST" finished-at="2020-11-05T23:10:24 IST">
+        <test-method status="PASS" signature="Setup(org.testng.ITestContext)[pri:0, instance:com.parallel.Tests.TestSuiteA@604ed9f0]" name="Setup" is-config="true" duration-ms="41" started-at="2020-11-07T19:31:44 IST" finished-at="2020-11-07T19:31:44 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@cb51256]]>
+                <![CDATA[org.testng.TestRunner@551aa95a]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="sumOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteA@7d9d1a19]" name="sumOfNumbers_001" duration-ms="1012" started-at="2020-11-05T23:10:24 IST" finished-at="2020-11-05T23:10:25 IST">
+        <test-method status="PASS" signature="sumOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteA@604ed9f0]" name="sumOfNumbers_001" duration-ms="1017" started-at="2020-11-07T19:31:44 IST" finished-at="2020-11-07T19:31:45 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumOfNumbers_001 -->
-        <test-method status="PASS" signature="sumOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteA@7d9d1a19]" name="sumOfNumbers_002" duration-ms="1002" started-at="2020-11-05T23:10:25 IST" finished-at="2020-11-05T23:10:26 IST">
+        <test-method status="PASS" signature="sumOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteA@604ed9f0]" name="sumOfNumbers_002" duration-ms="1004" started-at="2020-11-07T19:31:45 IST" finished-at="2020-11-07T19:31:46 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sumOfNumbers_002 -->
       </class> <!-- com.parallel.Tests.TestSuiteA -->
-    </test> <!-- TestA -->
-  </suite> <!-- SuiteA -->
+      <class name="com.parallel.Tests.TestSuiteB">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestSuiteB@6a4f787b]" name="Setup" is-config="true" duration-ms="41" started-at="2020-11-07T19:31:44 IST" finished-at="2020-11-07T19:31:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="substractionOfNumbers_001()[pri:0, instance:com.parallel.Tests.TestSuiteB@6a4f787b]" name="substractionOfNumbers_001" duration-ms="1017" started-at="2020-11-07T19:31:44 IST" finished-at="2020-11-07T19:31:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractionOfNumbers_001 -->
+        <test-method status="PASS" signature="substractionOfNumbers_002()[pri:0, instance:com.parallel.Tests.TestSuiteB@6a4f787b]" name="substractionOfNumbers_002" duration-ms="1003" started-at="2020-11-07T19:31:45 IST" finished-at="2020-11-07T19:31:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- substractionOfNumbers_002 -->
+      </class> <!-- com.parallel.Tests.TestSuiteB -->
+    </test> <!-- Parallel Test Execution -->
+  </suite> <!-- Suite -->
 </testng-results>
