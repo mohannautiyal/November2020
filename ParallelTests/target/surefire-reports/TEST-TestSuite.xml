@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.857" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="6.967" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -7,7 +7,7 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="E:\November2020\ParallelTests\target\test-classes;E:\November2020\ParallelTests\target\classes;C:\Users\Madan\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Madan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
+    <property name="java.class.path" value="C:\Users\Madan\git\November2020\ParallelTests\target\test-classes;C:\Users\Madan\git\November2020\ParallelTests\target\classes;C:\Users\Madan\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Madan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,21 +18,21 @@
     <property name="user.country" value="IN"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_251\bin"/>
-    <property name="sun.java.command" value="C:\Users\Madan\AppData\Local\Temp\surefire1008881110485302532\surefirebooter2944807480005834677.jar C:\Users\Madan\AppData\Local\Temp\surefire1008881110485302532 2020-11-07T19-31-43_018-jvmRun1 surefire4730921268057105598tmp surefire_03771923311120493223tmp"/>
-    <property name="surefire.test.class.path" value="E:\November2020\ParallelTests\target\test-classes;E:\November2020\ParallelTests\target\classes;C:\Users\Madan\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Madan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
+    <property name="sun.java.command" value="C:\Users\Madan\AppData\Local\Temp\surefire2940884279483045236\surefirebooter8086822355357963012.jar C:\Users\Madan\AppData\Local\Temp\surefire2940884279483045236 2020-11-07T22-34-12_883-jvmRun1 surefire8501710606480858963tmp surefire_02157433702416835058tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Madan\git\November2020\ParallelTests\target\test-classes;C:\Users\Madan\git\November2020\ParallelTests\target\classes;C:\Users\Madan\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Madan\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Madan"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Java\jre1.8.0_251"/>
-    <property name="basedir" value="E:\November2020\ParallelTests"/>
+    <property name="basedir" value="C:\Users\Madan\git\November2020\ParallelTests"/>
     <property name="style.color" value="always"/>
     <property name="file.separator" value="\"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Madan\AppData\Local\Temp\surefire1008881110485302532\surefirebooter2944807480005834677.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Madan\AppData\Local\Temp\surefire2940884279483045236\surefirebooter8086822355357963012.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_251\lib\resources.jar;C:\Program Files\Java\jre1.8.0_251\lib\rt.jar;C:\Program Files\Java\jre1.8.0_251\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_251\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_251\lib\jce.jar;C:\Program Files\Java\jre1.8.0_251\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_251\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_251\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -48,7 +48,7 @@
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Madan\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_251"/>
-    <property name="user.dir" value="E:\November2020\ParallelTests"/>
+    <property name="user.dir" value="C:\Users\Madan\git\November2020\ParallelTests"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
@@ -61,24 +61,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="substractionOfNumbers_001" classname="com.parallel.Tests.TestSuiteB" time="1.023">
+  <testcase name="sumOfNumbers_001" classname="com.parallel.Tests.TestSuiteA" time="1.02">
     <system-out><![CDATA[Executing Division Test 001...
 Executing Addition Test 001 ...
 Executing Substraction Test 001..
-Substraction Test 001 Done
 Addition Test 001 Done
+Substraction Test 001 Done
 ]]></system-out>
   </testcase>
-  <testcase name="substractionOfNumbers_002" classname="com.parallel.Tests.TestSuiteB" time="1.001"/>
-  <testcase name="sumOfNumbers_001" classname="com.parallel.Tests.TestSuiteA" time="1.026"/>
-  <testcase name="sumOfNumbers_002" classname="com.parallel.Tests.TestSuiteA" time="1">
-    <system-out><![CDATA[Executing Addition Test 002...
-Executing Substraction Test 002..
+  <testcase name="sumOfNumbers_002" classname="com.parallel.Tests.TestSuiteA" time="1.01"/>
+  <testcase name="substractionOfNumbers_001" classname="com.parallel.Tests.TestSuiteB" time="1.024"/>
+  <testcase name="substractionOfNumbers_002" classname="com.parallel.Tests.TestSuiteB" time="1.009">
+    <system-out><![CDATA[Executing Substraction Test 002..
+Executing Addition Test 002...
 Addition Test 002 Done
 Substraction Test 002 Done
 ]]></system-out>
   </testcase>
-  <testcase name="divisionOfNumbers_001" classname="com.parallel.Tests.TestSuiteC" time="1.985">
+  <testcase name="divisionOfNumbers_001" classname="com.parallel.Tests.TestSuiteC" time="1.978">
     <system-out><![CDATA[Division Test 001 Done
 ]]></system-out>
   </testcase>
