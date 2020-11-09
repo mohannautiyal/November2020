@@ -18,20 +18,38 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class TestWebDriver {
 	
 	
-	WebDriver driver;
+	
+	
+	/*
+	 * @BeforeMethod public void Setup() { WebDriverManager.chromedriver().setup();
+	 * driver = new ChromeDriver();
+	 * driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
+	 * driver.manage().window().maximize();
+	 * driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+	 * System.out.println("Launching Application.."); }
+	 */
+	ThreadLocal threaddriver = new ThreadLocal();
+
 	
 	@BeforeMethod
 	public void Setup() {
+		
 		WebDriverManager.chromedriver().setup();
-		driver = new ChromeDriver();
+		
+		WebDriver driver = new ChromeDriver();
+		
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 		System.out.println("Launching Application..");
+         threaddriver.set(driver);
+		
 	}
 	
 	@Test
 	public void verifyAppLaunch() {
+	 WebDriver driver = (WebDriver) threaddriver.get();
+
 	 List<WebElement> logoelem=	driver.findElements(By.id("divLogo"));	 
 	 assertTrue(logoelem.size()>0, "Logo not present");
 	 System.out.println("Logo verification passed");
@@ -40,6 +58,8 @@ public class TestWebDriver {
 	
 	@Test
 	public void verifyAppLogin() {
+		 WebDriver driver = (WebDriver) threaddriver.get();
+
 	 	driver.findElement(By.id("txtUsername")).sendKeys("Admin");	 
 	 	driver.findElement(By.id("txtPassword")).sendKeys("admin123");	 
 	 	driver.findElement(By.id("btnLogin")).click();	 
@@ -51,6 +71,8 @@ public class TestWebDriver {
 	
 	@AfterMethod
 	public void quit() {
+		 WebDriver driver = (WebDriver) threaddriver.get();
+
 		System.out.println("Closing Browser...");
 		driver.quit();
 	}
