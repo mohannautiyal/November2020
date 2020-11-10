@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="33117" started-at="2020-11-09T22:35:35 IST" finished-at="2020-11-09T22:36:08 IST">
+  <suite name="Suite" duration-ms="16906" started-at="2020-11-10T22:33:47 IST" finished-at="2020-11-10T22:34:04 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="33117" started-at="2020-11-09T22:35:35 IST" finished-at="2020-11-09T22:36:08 IST">
+    <test name="Test" duration-ms="16906" started-at="2020-11-10T22:33:47 IST" finished-at="2020-11-10T22:34:04 IST">
       <class name="com.parallel.Tests.TestWebDriver">
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestWebDriver@3cef309d]" name="Setup" is-config="true" duration-ms="13867" started-at="2020-11-09T22:35:35 IST" finished-at="2020-11-09T22:35:48 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestWebDriver@578486a3]" name="Setup" is-config="true" duration-ms="11604" started-at="2020-11-10T22:33:47 IST" finished-at="2020-11-10T22:33:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyAppLaunch()[pri:0, instance:com.parallel.Tests.TestWebDriver@3cef309d]" name="verifyAppLaunch" duration-ms="58" started-at="2020-11-09T22:35:48 IST" finished-at="2020-11-09T22:35:48 IST">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestWebDriver@578486a3]" name="Setup" is-config="true" duration-ms="11492" started-at="2020-11-10T22:33:47 IST" finished-at="2020-11-10T22:33:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="verifyAppLaunch()[pri:0, instance:com.parallel.Tests.TestWebDriver@578486a3]" name="verifyAppLaunch" duration-ms="63" started-at="2020-11-10T22:33:59 IST" finished-at="2020-11-10T22:33:59 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAppLaunch -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.parallel.Tests.TestWebDriver@3cef309d]" name="quit" is-config="true" duration-ms="1253" started-at="2020-11-09T22:35:48 IST" finished-at="2020-11-09T22:35:50 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.parallel.Tests.TestWebDriver@578486a3]" name="quit" is-config="true" duration-ms="1387" started-at="2020-11-10T22:33:59 IST" finished-at="2020-11-10T22:34:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->
-        <test-method status="PASS" signature="Setup()[pri:0, instance:com.parallel.Tests.TestWebDriver@3cef309d]" name="Setup" is-config="true" duration-ms="12908" started-at="2020-11-09T22:35:50 IST" finished-at="2020-11-09T22:36:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="verifyAppLogin()[pri:0, instance:com.parallel.Tests.TestWebDriver@3cef309d]" name="verifyAppLogin" duration-ms="4283" started-at="2020-11-09T22:36:03 IST" finished-at="2020-11-09T22:36:07 IST">
+        <test-method status="PASS" signature="verifyAppLogin()[pri:0, instance:com.parallel.Tests.TestWebDriver@578486a3]" name="verifyAppLogin" duration-ms="4593" started-at="2020-11-10T22:33:59 IST" finished-at="2020-11-10T22:34:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAppLogin -->
-        <test-method status="PASS" signature="quit()[pri:0, instance:com.parallel.Tests.TestWebDriver@3cef309d]" name="quit" is-config="true" duration-ms="705" started-at="2020-11-09T22:36:07 IST" finished-at="2020-11-09T22:36:08 IST">
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.parallel.Tests.TestWebDriver@578486a3]" name="quit" is-config="true" duration-ms="655" started-at="2020-11-10T22:34:03 IST" finished-at="2020-11-10T22:34:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- quit -->

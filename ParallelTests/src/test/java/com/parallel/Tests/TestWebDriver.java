@@ -28,27 +28,27 @@ public class TestWebDriver {
 	 * driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	 * System.out.println("Launching Application.."); }
 	 */
-	ThreadLocal threaddriver = new ThreadLocal();
+	ThreadLocal<WebDriver> threaddriver = new ThreadLocal();
 
 	
 	@BeforeMethod
 	public void Setup() {
 		
 		WebDriverManager.chromedriver().setup();
-		
-		WebDriver driver = new ChromeDriver();
+		 threaddriver.set(new ChromeDriver());
+		WebDriver driver = threaddriver.get();
 		
 		driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		System.out.println("Launching Application..");
-         threaddriver.set(driver);
+		System.out.println("Launching Application.."+ Thread.currentThread().getName());
+        
 		
 	}
 	
 	@Test
 	public void verifyAppLaunch() {
-	 WebDriver driver = (WebDriver) threaddriver.get();
+	 WebDriver driver = threaddriver.get();
 
 	 List<WebElement> logoelem=	driver.findElements(By.id("divLogo"));	 
 	 assertTrue(logoelem.size()>0, "Logo not present");
@@ -58,7 +58,7 @@ public class TestWebDriver {
 	
 	@Test
 	public void verifyAppLogin() {
-		 WebDriver driver = (WebDriver) threaddriver.get();
+		 WebDriver driver =  threaddriver.get();
 
 	 	driver.findElement(By.id("txtUsername")).sendKeys("Admin");	 
 	 	driver.findElement(By.id("txtPassword")).sendKeys("admin123");	 
@@ -71,7 +71,7 @@ public class TestWebDriver {
 	
 	@AfterMethod
 	public void quit() {
-		 WebDriver driver = (WebDriver) threaddriver.get();
+		 WebDriver driver =  threaddriver.get();
 
 		System.out.println("Closing Browser...");
 		driver.quit();
